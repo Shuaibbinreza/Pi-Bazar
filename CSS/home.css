@@ -1,0 +1,153 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #FFFFE0;
+}
+.logo{
+	height: 700px;
+	width: 100%;
+	background: #87CEFA;
+	margin:auto;
+	background-image: url(../Image/001.jpg);
+}
+.upper{
+	height: 40px;
+	width: 100%;
+	background: yellow;
+	margin-top:0px;
+}
+.log li{
+	display: inline;
+	margin: 0;
+}
+.logo2{
+	float: left;
+	padding-right: 92%;
+}
+#logo{
+	margin-top: 5px;
+}
+.log-in{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.login{
+	margin-top: 8px;
+}
+.log-in a{
+	text-decoration: none;
+}
+.log-in a:hover{
+	color: #c11c1c;
+}
+.seperator{
+	width: 100%;
+	height: 5px;
+	background: #778899;
+}
+.search input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search input[type=text]:focus {
+    width: 10%;
+}
+.search button{
+	height: 40px;
+	background-color: #D3D3D3;
+}
+.search2{
+	margin-top: 0px;
+}
+.navigation{
+	width: 850px;
+	margin: auto;
+}
+.navigation li{
+	list-style: none;
+	display: inline;
+	padding-right: 45px;
+	font-size: 20px;
+	font-family: 'Aldrich';
+}
+.navigation a{
+	text-decoration: none;
+	background: #29cde7;
+	padding: 10px;
+	color: #4b3621;
+}
+.navigation a:hover{
+	color: #c11c1c;
+	font-size: 22px;
+}
+.most-populer{
+	 font-family: 'Amarante';
+	 width: 1000px;
+	 margin: auto;
+}
+.most-populer-border{
+	height: 3px;
+	width: 10%;
+	background: black;
+}
+.top-rated{
+	 font-family: 'Amarante';
+	 width: 1000px;
+	 margin: auto;
+}
+.top-rated-border{
+	height: 3px;
+	width: 10%;
+	background: black;
+}
+.feature-product{
+	 font-family: 'Amarante';
+	 width: 1000px;
+	 margin: auto;
+}
+.feature-product-border{
+	height: 3px;
+	width: 10%;
+	background: black;
+}
+.follow{
+	 font-family: 'Amarante';
+	 width: 500px;
+	 margin: auto;
+}
+.follow li{
+	display: inline;
+	padding-right: 30px;
+}
+.coloumn{
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	background: #1ac7c3;
+}
+.product-list{
+	font-family: 'Arbutus Slab';
+}
+.product-list a{
+	text-decoration: none;
+	color: #0091ea;
+}
+.product-hover a:hover{
+	font-size: 17px;
+	color: #01579b;
+}
+.img-hover a:hover{
+	content: url(../Image/002.jpg);
+}
+

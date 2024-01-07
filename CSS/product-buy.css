@@ -1,0 +1,208 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #FFFFE0;
+}
+.category{
+	height: 60px;
+	width: 100%;
+	background: #0093cf;
+	padding: 0;
+	margin-top: 0;
+	position: relative;
+}
+.category p{
+	position: relative;
+	text-align: center;
+	top:50%;
+	transform: translateY(-50%);
+}
+.logo{
+	background: #e3e3e3;
+	height: 85px;
+	width: 100%;
+}
+.logo_1{
+	height: 100px;
+	width: 10%;
+}
+.logo_1 img{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 45%;
+	transform: translateY(-50%);
+	position: relative;
+}
+.topnav{
+	height: 100px;
+	width: 70%;
+}
+.logo div{
+	float:left;
+}
+.search{
+	position: relative;
+	margin:auto;
+	padding-left: 10%;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50%;
+}
+.search button{
+	float: right;
+	background: skyblue;
+	color: black;
+	border-radius: 0 5px 5px 0 solid red;
+	cursor: pointer;
+	position: relative;
+	font-size: 16px;
+	font-family: sans-serif; 
+}
+.topnav input[type=text]{
+	border: none;
+	font-size: 20px;
+	border: 1px solid black;
+	position: relative;
+	width: 80%;
+}
+.signin{
+	height: 100px;
+	width: 20%;
+}
+.signin ul{
+	position: relative;
+	text-align: center;
+	top:50;
+	transform: translateY(-50%);
+	margin-top: 40px;
+}
+.signin ul li{
+	display: inline;
+	float: left;
+	padding-left: 20px;
+}
+.signin ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #11055e;
+	background: skyblue;
+	padding: 10px;
+}
+.signin ul li a:hover{
+	color: black;
+	transition: 1s all ease;
+	background: #25adbc;
+}
+
+.devider{
+	padding: 0;
+	margin: 0;
+	height: 10px;
+	width: 100%;
+	background: #bdd80a;
+}
+.devider2{
+	padding: 0;
+	margin: 0;
+	height: 10px;
+	width: 100%;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	width: 750px;
+	margin: auto;
+}
+nav ul li{
+	display: inline;
+	float: left;
+	padding-left: 50px;
+	font-size: 20px;
+	margin: auto;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #11055e;
+	background: skyblue;
+	padding: 10px;
+}
+nav ul li a:hover{
+	color: black;
+	transition: 1s all ease;
+	background: #25adbc;
+}
+.category{
+	height: 60px;
+	width: 100%;
+	background: #0093cf;
+	padding: 0;
+	margin-top: 0;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 20px;
+}
+
+.slider{
+	width: 640px; /*Same as width of the large image*/
+	position: relative;
+	/*Instead of height we will use padding*/
+	padding-top: 320px; /*That helps bring the labels down*/
+	
+	margin: 100px auto;
+	
+	/*Lets add a shadow*/
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+
+/*Last thing remaining is to add transitions*/
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	/*Lets add some spacing for the thumbnails*/
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	
+	/*Default style = low opacity*/
+	opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+
+/*Time to add the click effects*/
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+/*Clicking any thumbnail now should change its opacity(style)*/
+/*Time to work on the main images*/
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+/*That hides all main images at a 110% size
+On click the images will be displayed at normal size to complete the effect
+*/
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}

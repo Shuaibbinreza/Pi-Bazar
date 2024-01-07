@@ -1,0 +1,226 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #FFFFE0;
+}
+.top-bar{
+	height: 90px;
+	width: 100%;
+}
+.top-bar-anchor img{
+	margin: auto;
+	padding: 0;
+}
+.logo{
+	background: #e3e3e3;
+	height: 85px;
+	width: 100%;
+}
+.logo_1{
+	height: 100px;
+	width: 10%;
+}
+.logo_1 img{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 50%;
+	transform: translateY(-50%);
+	position: relative;
+}
+.topnav{
+	height: 100px;
+	width: 70%;
+}
+.logo div{
+	float:left;
+}
+.search{
+	position: relative;
+	margin:auto;
+	padding-left: 10%;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50%;
+}
+.search button{
+	float: right;
+	background: skyblue;
+	color: black;
+	border-radius: 0 5px 5px 0 solid red;
+	cursor: pointer;
+	position: relative;
+	font-size: 16px;
+	font-family: sans-serif; 
+}
+.topnav input[type=text]{
+	border: none;
+	font-size: 20px;
+	border: 1px solid black;
+	position: relative;
+	width: 80%;
+}
+.signin{
+	height: 100px;
+	width: 20%;
+}
+.signin ul{
+	position: relative;
+	text-align: center;
+	top:50;
+	transform: translateY(-50%);
+	margin-top: 40px;
+}
+.signin ul li{
+	display: inline;
+	float: left;
+	padding-left: 20px;
+}
+.signin ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #11055e;
+	background: skyblue;
+	padding: 10px;
+}
+.signin ul li a:hover{
+	color: black;
+	transition: 1s all ease;
+	background: #25adbc;
+}
+.devider{
+	padding: 0;
+	margin: 0;
+	height: 10px;
+	width: 100%;
+	background: #bdd80a;
+}
+.devider2{
+	padding: 0;
+	margin: 0;
+	height: 10px;
+	width: 100%;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	width: 750px;
+	margin: auto;
+}
+nav ul li{
+	display: inline;
+	float: left;
+	padding-left: 50px;
+	font-size: 20px;
+	margin: auto;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #11055e;
+	background: skyblue;
+	padding: 10px;
+}
+nav ul li a:hover{
+	color: black;
+	transition: 1s all ease;
+	background: #25adbc;
+}
+#outerbox{
+	width: 700px;
+	overflow: hidden;
+	margin: auto;
+	border: 10px solid black;
+}
+#sliderbox{
+	position: relative;
+	width: 2800px;
+	animation: pibazar 20s infinite;
+}
+#sliderbox img{
+	float: left;
+}
+@keyframes pibazar{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+		left: 700px;
+	}
+	45%{
+		left: -700px;
+	}
+	50%{
+		left: -1400px;
+	}
+	70%{
+		left: -1400px;
+	}
+	75%{
+		left: -2100px;
+	}
+	95%{
+		left: -2100px;
+	}
+	100%{
+		left: -2800px;
+	}
+}
+
+.connector{
+	width: 100%;
+	height: 14px;
+}
+
+.product-list{
+	font-family: 'Arbutus Slab';
+}
+.product-list a{
+	text-decoration: none;
+	color: #0091ea;
+}
+.product-hover a:hover{
+	color: #01579b;
+}
+.img-hover a:hover{
+	content: url(../Image/002.jpg);
+}
+.product {
+	width: 1000px;
+	margin: auto;
+	background: white;
+}
+.product table{
+	padding-left: 30px;
+}
+.product table button{
+	background: #665869
+}
+footer{
+	margin: auto;
+	height: 15px;
+	background: green;
+	position:relative;
+}
+.follow-nav{
+	height: 150px;
+	width: 500px;
+	margin: auto;
+}
+.follow-nav div{
+	float: left;
+	padding-left: 30px;
+	
+}
+footer p{
+	position: relative;
+	margin:auto;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50%;	
+}

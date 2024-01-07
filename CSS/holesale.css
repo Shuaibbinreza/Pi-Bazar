@@ -1,0 +1,188 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #FFFFE0;
+}
+
+.top-bar{
+	height: 90px;
+	width: 100%;
+}
+.top-bar-anchor img{
+	margin: auto;
+	padding: 0;
+}
+.logo{
+	background: #e3e3e3;
+	height: 85px;
+	width: 100%;
+}
+.logo_1{
+	height: 100px;
+	width: 10%;
+}
+.logo_1 img{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 50%;
+	transform: translateY(-50%);
+	position: relative;
+}
+.topnav{
+	height: 100px;
+	width: 70%;
+}
+.logo div{
+	float:left;
+}
+.search{
+	position: relative;
+	margin:auto;
+	padding-left: 10%;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50%;
+}
+.search button{
+	float: right;
+	background: skyblue;
+	color: black;
+	border-radius: 0 5px 5px 0 solid red;
+	cursor: pointer;
+	position: relative;
+	font-size: 16px;
+	font-family: sans-serif; 
+}
+.topnav input[type=text]{
+	border: none;
+	font-size: 20px;
+	border: 1px solid black;
+	position: relative;
+	width: 80%;
+}
+.signin{
+	height: 100px;
+	width: 20%;
+}
+.signin ul{
+	position: relative;
+	text-align: center;
+	top:50;
+	transform: translateY(-50%);
+	margin-top: 40px;
+}
+.signin ul li{
+	display: inline;
+	float: left;
+	padding-left: 20px;
+}
+.signin ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #11055e;
+	background: skyblue;
+	padding: 10px;
+}
+.signin ul li a:hover{
+	color: black;
+	transition: 1s all ease;
+	background: #25adbc;
+}
+.devider{
+	padding: 0;
+	margin: 0;
+	height: 10px;
+	width: 100%;
+	background: #bdd80a;
+}
+.devider2{
+	padding: 0;
+	margin: 0;
+	height: 10px;
+	width: 100%;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	width: 750px;
+	margin: auto;
+}
+nav ul li{
+	display: inline;
+	float: left;
+	padding-left: 50px;
+	font-size: 20px;
+	margin: auto;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #11055e;
+	background: skyblue;
+	padding: 10px;
+}
+nav ul li a:hover{
+	color: black;
+	transition: 1s all ease;
+	background: #25adbc;
+}
+.category{
+	height: 60px;
+	width: 100%;
+	background: #0093cf;
+	padding: 0;
+	margin-top: 0;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 20px;
+}
+.form{
+	width: 60%;
+	padding-right: 10%;
+}
+.form input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.holesale-form{
+	width: 70%;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.terms{
+	font-size: 20px;
+	font-family: arial;
+}
